@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-image: url('file:C:/Users/Maxim/IdeaProjects/PROJECT1/src/app/resources/1.png');" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Main1">
+   <children>
+      <Button fx:id="button" layoutX="526.0" layoutY="625.0" mnemonicParsing="false" onAction="#ispressed" prefHeight="55.0" prefWidth="229.0" style="-fx-background-color: #002140;" text="ORDER" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="28.0" />
+         </font></Button>
+      <Button layoutX="1152.0" layoutY="680.0" mnemonicParsing="false" onAction="#openNav" prefHeight="29.0" prefWidth="114.0" style="-fx-background-color: #002140;" text="FOR EMPLOYERS" textFill="WHITE" />
+   </children>
+</AnchorPane>
